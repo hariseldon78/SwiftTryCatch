@@ -34,7 +34,7 @@
  */
 +(void)try:(void (^)())try catch:(void (^)(NSException *))catch finally:(void (^)())finally{
     @try {
-        try ? try() : nil;
+		try ? try() : nil;
     }
     
     @catch (NSException *exception) {
